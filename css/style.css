@@ -1,0 +1,466 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+/* navbar */
+
+nav {
+  display: flex;
+  background-color: white);
+  justify-content: space-around;
+  height: 50px;
+  color: black;
+  align-items: center;
+  border-bottom: 2px solid grey;
+}
+
+nav .logo {
+  font-family: "pacifico", cursive;
+  letter-spacing: 3px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: grey;
+}
+
+/* Hamburger Menu
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-toggle input {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  left: -5px;
+  top: -3px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: black;
+  border-radius: 3px;
+  transition: all 0.5s;
+} */
+
+/* Hamburger Menu Animation */
+/* .menu-toggle span:nth-child(2) {
+  transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+  background-color: black;
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+  background-color: black;
+  transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+  opacity: 0;
+  transform: scale(0);
+} */
+
+/* Welcome */
+
+.container {
+  width: 1000px;
+
+  border: 1px solid white;
+  justify-content: center;
+  margin: 150px auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container h1 {
+  padding: 15%;
+  text-align: center;
+}
+
+
+/* About me */
+
+.profile {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.profile h2 {
+  padding: 10px;
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.profile p {
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  justify-content: center;
+  box-sizing: border-box;
+  font: 16px;
+}
+
+.profile img {
+  float: left;
+  margin: 10px;
+  background-size: 50px;
+  width: 250px;
+}
+
+.clear {
+  clear: left;
+}
+
+/* Hobi */
+
+.hobi {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.hobi img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.hobi h2 {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hobi p {
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Hobi 2 */
+
+.hobi2 {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.hobi2 img {
+  float: right;
+  margin: 10px 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.hobi2 p {
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+}
+
+/* Hobi 3 */
+
+.hobi3 {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.hobi3 img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.hobi3 p {
+  margin: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Hobi 4 */
+
+.hobi4 {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.hobi4 img {
+  float: right;
+  margin: 10px 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.hobi4 p {
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+}
+
+/* Skill */
+
+.skill {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.skill ul {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.skill h2 {
+  text-align: center;
+}
+
+/* contact */
+
+.kontak {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+.kontak h2 {
+  margin: 20px auto;
+  text-align: center;
+}
+.kontak .sosmed {
+  display: inline-block;
+  margin-left: 30%;
+}
+.kontak .sosmed img {
+  margin: 10px;
+  width: 15px;
+  align-items: center;
+}
+
+.kontak .sosmed,
+.kontak .email {
+  width: 30%;
+  position: absolute;
+}
+
+.kontak .email {
+  margin-left: 50%;
+  text-align: center;
+}
+
+.kontak .email p {
+  font-size: 12px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 50px;
+  padding: 15px;
+  width: 100%;
+  font-size: 10px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+/* clear */
+.hobi .clear {
+  clear: left;
+}
+
+.hobi2 .clear {
+  clear: right;
+}
+
+.hobi3 .clear {
+  clear: left;
+}
+
+.hobi4 .clear {
+  clear: right;
+}
+/* Responsive Brakepoint */
+
+/* Ukuran Tablet */
+@media screen and (max-width: 760px) {
+  nav ul {
+    width: 50%;
+  }
+  .container h1 {
+    width: 50%;
+  }
+  .profile h2 {
+    width: 50%;
+  }
+  .profile img {
+    width: 50%;
+  }
+  .skill ul {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+  .kontak .sosmed {
+    display: inline-block;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .menu-toggle {
+    display: flex;
+  }
+  /* nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 70vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+    background-color: whitesmoke;
+    transform: translatex(100%);
+    transition: 1s;
+    opacity: 0;
+  }
+
+  
+
+  nav ul.slide {
+    opacity: 1;
+    transform: translateX(0);
+  } */
+  .container h1 {
+    position: absolute;
+    width: 80%;
+    height: 100vh;
+  }
+  .profile h2 {
+    position: relative;
+    width: 30%;
+  }
+  .profile img {
+    position: relative;
+    width: 30%;
+  }
+
+  .skill ul {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+  }
+  .kontak .sosmed {
+    display: inline-block;
+    margin-left: 15%;
+  }
+  .profile p {
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+    font: 16px;
+  }
+  .hobi p {
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .hobi2 p {
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+  }
+  
+  .hobi3 p {
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .hobi4 p {
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+  }
+}
+
+
